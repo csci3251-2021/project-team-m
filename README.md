@@ -17,16 +17,7 @@ In this repository we are tasked to:
 # Code
 
 # Contributors
-<table>
-  <tbody>
-    {% for stu in site.stu %}
-      <tr>
-        <td><img src="{{ stu.image }}" width="50" height="50" /></td>
-        <td>
-          <a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})<br>
-          {{ stu.content | markdownify }}
-        </td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% for stu in site.stu %}
+ - <img src="{{ stu.image }}" width="50" height="50" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})
+  - {{ stu.content | markdownify }}
+{% endfor %}
