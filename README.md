@@ -18,6 +18,6 @@ In this repository we are tasked to:
 
 # Contributors
 {% for stu in site.stu %}
- - <img src="{{ stu.image }}" width="50" height="50" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})
-  - {{ stu.content | markdownify }}
+- <img src="{{ stu.image }}" width="50" height="50" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})
+- {{ stu.content | markdownify }}
 {% endfor %}
