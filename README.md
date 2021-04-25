@@ -19,6 +19,6 @@ In this repository we are tasked to:
 # Contributors
 {% for stu in site.stu %}
   <h2>{{ stu.image }} @ {{ stu.user }}({{ stu.name }})</h2>
-  <p>{{ staff_member.content | markdownify }}</p>
+  <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
 
