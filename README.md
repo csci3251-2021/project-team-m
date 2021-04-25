@@ -4,7 +4,7 @@ In this repository we are tasked to:
 - [x] Start some issues.
 - [x] Setup the project board.
 - [x] Setup the readme file
-- [ ] Updating our GitHub Pages.
+- [x] Updating our GitHub Pages.
 - [ ] Label everything properly.
 - [ ] Write C code and use GitHub Actions to run it automatically.
 - [ ] Get a status badge.
