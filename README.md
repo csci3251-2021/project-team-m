@@ -17,8 +17,5 @@ In this repository we are tasked to:
 # Code
 
 # Contributors
-{% for stu in site.stu %}
-  <h2>{{ stu.image }} - {{ stu.user }}</h2>
-  <p>{{ stu.content | markdownify }}</p>
-{% endfor %}
+{% include_relative _stu/1155141630.md %}
 
