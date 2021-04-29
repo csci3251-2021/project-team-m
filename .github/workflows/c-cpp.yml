@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: runcode
-        run: gcc code.c -o code; ./code
+    - uses: actions/checkout@v2
+    - name: runcode
+      run: gcc code.c -o code; ./code
