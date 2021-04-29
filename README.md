@@ -15,6 +15,7 @@ In this repository we are tasked to:
  
 
 # Code
+{% include_relative code.c %}
 
 # Contributors
 {% for stu in site.stu %}
