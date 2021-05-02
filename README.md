@@ -16,6 +16,11 @@ In this repository we are tasked to:
 
 # Code
 
+```C
+{% include_relative project-team-m/code.c %}
+```
+![example workflow](https://github.com/csci3251-2021/project-team-m/actions/workflows/c-ccp.yml/badge.svg)
+
 # Contributors
 {% for stu in site.stu %}
 - <img src="{{ stu.image }}" width="50" height="50" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})
