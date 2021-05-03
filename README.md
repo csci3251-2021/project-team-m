@@ -5,13 +5,12 @@ In this repository we are tasked to:
 - [x] Setup the project board.
 - [x] Setup the readme file
 - [x] Updating our GitHub Pages.
-- [ ] Label everything properly.
-- [ ] Write C code and use GitHub Actions to run it automatically.
-- [ ] Get a status badge.
-- [ ] Promote our repository.
+- [x] Label everything properly.
+- [x] Write C code and use GitHub Actions to run it automatically.
+- [x] Get a status badge.
+- [x] Promote our repository.
 
 
-**Please read `tasks.md` to start your work.**
  
 
 # Code
@@ -26,3 +25,6 @@ In this repository we are tasked to:
 - <img src="{{ stu.image }}" width="50" height="50" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a> ({{ stu.name }})
   - {{ stu.content | markdownify }}
 {% endfor %}
+
+---
+Last updated: {{ site.time }}
